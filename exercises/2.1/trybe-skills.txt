@@ -5,5 +5,5 @@
 - HTML
 - CSS
 - JavaScript
-- Responsive JS Soft Skills
-introdução à internet
+- Soft Skills
+- introdução à internet
