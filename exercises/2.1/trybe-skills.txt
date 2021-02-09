@@ -7,3 +7,5 @@
 - JavaScript
 - entrevista de emprego
 - backend
+- Soft Skills
+- introdução à internet
