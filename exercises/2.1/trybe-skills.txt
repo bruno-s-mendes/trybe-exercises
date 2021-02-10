@@ -5,4 +5,7 @@
 - HTML
 - CSS
 - JavaScript
-- Responsive JS 
+- entrevista de emprego
+- backend
+- Soft Skills
+- introdução à internet
