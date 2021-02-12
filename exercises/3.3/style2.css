@@ -1,0 +1,15 @@
+
+
+#mario, #goomba, #bowser{
+    width: 300px;
+}
+#mario{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+}
+#goomba{
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+}
