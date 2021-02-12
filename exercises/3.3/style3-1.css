@@ -10,3 +10,5 @@ li:hover{
 li:active{
     font-family: Verdana;
 }
+ol, ul{list-style: none;
+}
