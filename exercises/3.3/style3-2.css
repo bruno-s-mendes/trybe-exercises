@@ -4,9 +4,11 @@ div:hover{
 }
 div:first-of-type{
 color: red;
+font-size: large;
 }
 div:nth-of-type(2){
     color: blue;
+    font-size: medium;
 }
 div:nth-of-type(3){
     color: green;
@@ -16,4 +18,10 @@ div:nth-of-type(4){
 }
 div:last-of-type{
     color: palevioletred;
+}
+h3:first-of-type{
+    
+}
+h3:nth-of-type(2){
+
 }
