@@ -1,5 +1,6 @@
 body {
     text-align: left;
+    background-color: burlywood;
 }
 header{
     width: 100%;
@@ -30,4 +31,18 @@ img{
     margin-left: 10px;
     max-width: 400px;
     vertical-align: top;
+}
+#text-top{
+    display: inline-block;
+    vertical-align: top;
+}
+#picture-top{
+    display: inline-block;
+    margin-left: 10px;
+    max-width: 500px;
+    vertical-align: top;
+
+}
+#top{
+    text-align: center;
 }
