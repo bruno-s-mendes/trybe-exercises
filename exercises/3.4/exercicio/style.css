@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+header{
+    width: 100%;
+    
+}
+header li{
+    background-color: silver;
+    display: inline-block;
+    width: 150px;
+}
