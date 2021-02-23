@@ -14,3 +14,20 @@ header li{
 tr, td{
     border: 1px solid black;
 }
+.format-main{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+
+}
+.format-main p{
+    display: inline-block;
+    max-width: 400px;
+    text-align: justify;
+   
+}
+img{
+    margin-left: 10px;
+    max-width: 400px;
+    vertical-align: top;
+}
