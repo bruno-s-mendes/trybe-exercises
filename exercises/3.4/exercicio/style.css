@@ -46,3 +46,8 @@ img{
     max-width: 400px;
     vertical-align: top;
 }
+aside{
+    text-align: center;
+    font-size: 35px;
+    color: darkmagenta;
+}
