@@ -19,3 +19,10 @@ console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita 
 
 console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' possui ' + medals.golden + ' medalhas de ouro e ' + medals.silver + ' medalhas de prata.');
 
+// exercico 3
+
+function sum(a,b){
+  return a+b;
+}
+
+console.log (sum (3,18));

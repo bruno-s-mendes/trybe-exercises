@@ -1,0 +1,39 @@
+let info = {
+    personagem: "Margarida",
+    origem: "Pato Donald",
+    nota: "Namorada do personagem principal nos quadrinhos do Pato Donald",
+  };
+
+  console.log ('Bem vinda, ' + info.personagem);
+
+  info.recorrente = 'sim';
+
+  console.log(info);
+
+  for ( let index in info){
+      console.log (index);
+  }
+
+  for (let index in info){
+      console.log (info[index]);
+  }
+
+  info = {
+    personagem: "Tio Patinhas",
+    origem: "Pato Christmas on Bear Mountain, Dell's Four Color Comics #178Donald",
+    nota: "O último MacPatinhas",
+    recorrente: "sim"
+  }
+  console.log ('Bem vinda, ' + info.personagem);
+
+  info.recorrente = 'sim';
+
+  console.log(info);
+
+  for ( let index in info){
+      console.log (index);
+  }
+
+  for (let index in info){
+      console.log (info[index]);
+  }
