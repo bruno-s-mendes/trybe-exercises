@@ -57,7 +57,14 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+        let titulo = 'Exercício 5.2';
+        let body = document.querySelector('body');
+        let pageTitle = document.createElement('h1');
+        pageTitle.innerText = titulo;
+        body.appendChild(pageTitle);
+        let firstDiv =  document.createElement('div');
+        firstDiv.className = 'main-content';
+        body.appendChild(firstDiv);
     </script>
   </body>
 </html>
