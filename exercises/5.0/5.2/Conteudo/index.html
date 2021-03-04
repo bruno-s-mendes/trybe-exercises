@@ -11,6 +11,7 @@
       <div id="quartoEUltimoFilho"></div>
     </div>
   <script>
+      // parte 1
       document.querySelector('#elementoOndeVoceEsta');
       document.querySelector('#elementoOndeVoceEsta').parentNode.style.color = 'green';
       document.querySelector('#primeiroFilhoDoFilho').innerText = 'texto adicionado por mim, Hã'
@@ -19,5 +20,13 @@
       document.querySelector('#elementoOndeVoceEsta').parentNode.childNodes[4];
       document.querySelector('#elementoOndeVoceEsta').parentNode.childNodes[5];
       document.querySelector('#pai').childNodes[5];
+      //parte 2
+      let texto = 'bruno mendes';
+      let irmaoNovo = document.createElement('p');
+      irmaoNovo.innerText = texto;
+      document.querySelector('#pai').appendChild(irmaoNovo);
+      document.querySelector('#elementoOndeVoceEsta').appendChild(document.createElement('div'));
+      document.querySelector('#primeiroFilhoDoFilho').appendChild(document.createElement('div'));
+      document.querySelector('#primeiroFilhoDoFilho').lastChild.parentNode.parentNode.parentNode.childNodes[5];
   </script>
   </div>
