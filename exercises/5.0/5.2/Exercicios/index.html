@@ -71,6 +71,13 @@
         let par = document.createElement('p');
         par.innerText = 'texto cheio de abobrinhas para podermos colocar no site que está sendo criado com js. fixação de conteudo!'
         document.querySelector('.center-content').appendChild(par);
+        let leftContent =  document.createElement('div');
+        leftContent.className = 'left-content';
+        document.querySelector('.main-content').appendChild(leftContent);
+        let rightContent =  document.createElement('div');
+        rightContent.className = 'right-content';
+        document.querySelector('.main-content').appendChild(rightContent);
+
     </script>
   </body>
 </html>
