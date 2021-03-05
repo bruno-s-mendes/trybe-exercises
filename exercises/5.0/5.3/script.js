@@ -42,4 +42,13 @@ function createDaysOfTheWeek() {
           listItem.innerText = text;
           lista.appendChild(listItem);
       }
-}
+
+  }
+ function createButton (Feriados) {
+     let botao = document.createElement('button');
+     botao.id = 'btn-holiday';
+     botao.innerText = Feriados;
+     document.querySelector(".buttons-container").appendChild(botao);
+ }
+ 
+ createButton("Feriados");
