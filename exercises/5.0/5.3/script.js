@@ -44,11 +44,31 @@ function createDaysOfTheWeek() {
       }
 
   }
+
  function createButton (Feriados) {
      let botao = document.createElement('button');
      botao.id = 'btn-holiday';
      botao.innerText = Feriados;
      document.querySelector(".buttons-container").appendChild(botao);
- }
+    }
  
  createButton("Feriados");
+
+ function displayHolidays() {
+    let but = document.querySelector('#btn-holiday');
+    let holi = document.querySelectorAll('.holiday');
+    let originalColor = 'rgb(238,238,238)';
+    let newColor = 'pink';
+    
+    but.addEventListener('click', function(){
+        for (let index = 0; index < holi.length; index += 1) {
+            if (holi[index].style.backgroundColor === newColor) {
+                holi[index].style.backgroundColor = originalColor;
+               } else {
+                holi[index].style.backgroundColor = newColor;
+               }
+            }
+       }) 
+   };
+   
+   displayHolidays();
