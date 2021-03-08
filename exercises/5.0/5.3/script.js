@@ -105,3 +105,21 @@ function createDaysOfTheWeek() {
    };
    
    displayFridays();
+
+   function mouseOver() {
+    let day = document.querySelector('#days');
+
+        day.addEventListener('mouseover', function(event) {
+            event.target.style.fontSize = '40px';
+        })
+   };
+   function mouseOut() {
+    let day = document.querySelector('#days');
+
+        day.addEventListener('mouseout', function(event) {
+            event.target.style.fontSize = '20px';
+        })
+   };
+
+   mouseOver();
+   mouseOut();
