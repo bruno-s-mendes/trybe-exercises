@@ -139,4 +139,19 @@ function createDaysOfTheWeek() {
       task.appendChild(color);
   }
 
-  createColor('green');
+  createColor('orange');
+
+  function setTaskClass() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let myTasks = document.querySelector('.task');
+
+  myTasks.addEventListener('click', function() {
+    if (selectedTask.length === 0) {
+      myTasks.className = 'task selected';
+    } else {
+      myTasks.className = 'task';
+    }
+  });
+};
+
+setTaskClass();
