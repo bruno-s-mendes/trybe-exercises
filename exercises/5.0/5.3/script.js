@@ -123,3 +123,12 @@ function createDaysOfTheWeek() {
 
    mouseOver();
    mouseOut();
+
+   let add = document.querySelector('#btn-add');
+   add.addEventListener('click', function () {
+       let text = document.querySelector('#task-input');
+       let task = document.createElement('span');
+       task.innerText = text.value;
+       document.querySelector(".my-tasks").appendChild(task);
+    });
+ 
