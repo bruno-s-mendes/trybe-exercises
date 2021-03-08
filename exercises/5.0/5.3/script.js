@@ -72,3 +72,12 @@ function createDaysOfTheWeek() {
    };
    
    displayHolidays();
+
+    function createButtonFriday (name) {
+     let botao = document.createElement('button');
+     botao.id = 'btn-friday';
+     botao.innerText = name;
+     document.querySelector(".buttons-container").appendChild(botao);
+    }
+ 
+ createButton("Sexta-feira");
