@@ -81,7 +81,6 @@ function createDaysOfTheWeek() {
     }
  
  createButtonFriday("Sexta-feira");
-
   let fri = document.querySelectorAll('.friday');
   let originalText = [];
   for (let index = 0; index < fri.length; index += 1) {
@@ -132,3 +131,12 @@ function createDaysOfTheWeek() {
        document.querySelector(".my-tasks").appendChild(task);
     });
  
+  function createColor(stringCor) {
+      let task = document.querySelector('.my-tasks');
+      let color = document.createElement('div');
+      color.className = 'task';
+      color.style.backgroundColor = stringCor;
+      task.appendChild(color);
+  }
+
+  createColor('green');
