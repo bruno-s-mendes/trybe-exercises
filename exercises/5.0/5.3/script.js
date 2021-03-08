@@ -80,4 +80,28 @@ function createDaysOfTheWeek() {
      document.querySelector(".buttons-container").appendChild(botao);
     }
  
- createButton("Sexta-feira");
+ createButtonFriday("Sexta-feira");
+
+  let fri = document.querySelectorAll('.friday');
+  let originalText = [];
+  for (let index = 0; index < fri.length; index += 1) {
+      let inner = fri[index].textContent;
+      originalText.push(inner);
+  }
+  
+  function displayFridays() {
+    let but = document.querySelector('#btn-friday');
+    let newText = 'Sextou!';
+    
+    but.addEventListener('click', function(){
+        for (let index = 0; index < fri.length; index += 1) {
+            if (fri[index].textContent === newText) {
+                fri[index].innerText = originalText[index];
+               } else {
+                fri[index].innerText = newText;
+               }
+            }
+       }) 
+   };
+   
+   displayFridays();
