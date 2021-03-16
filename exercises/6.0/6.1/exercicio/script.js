@@ -86,6 +86,6 @@ function btnClear() {
 
 window.onload = function run() {
   addStates();
-  submit();
+  document.getElementById('myInputId').DatePickerX.init();
   btnClear();
 }
