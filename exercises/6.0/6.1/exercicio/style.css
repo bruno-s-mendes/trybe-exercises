@@ -1,0 +1,15 @@
+.item-one {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+#adress-box {
+  display: block;
+}
+
+#field-two {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
