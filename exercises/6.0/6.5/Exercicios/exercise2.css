@@ -1,0 +1,39 @@
+html {
+	background-color: bisque;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+	header nav ul {
+		display: flex;
+		justify-content: space-around;
+		align-content: center;
+	}
+
+	header nav ul li {
+		list-style: none;
+	}
+
+li {
+	opacity: 0.8;
+}
+
+li:hover {
+	opacity: 1;
+}
+
+  /* layout mobile*/
+
+@media screen and (max-width: 400px) {
+	header p {
+		text-align: center;
+		font-size: 30px;
+		font-weight: 600;
+	}
+
+	
+
+
+}
