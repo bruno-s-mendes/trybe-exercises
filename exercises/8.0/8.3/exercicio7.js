@@ -63,16 +63,10 @@ const books = [
   },
 ];
 
-const expectedResult = [
-  'O Senhor dos Anéis',
-  'Fundação',
-  'O Chamado de Cthulhu',
-];
+const expectedResult = 'O Senhor dos Anéis';
 
-function oldBooks() {
-  const array = [];
-  books.filter((book) => (book.releaseYear <= 1961)).forEach((book) => array.push(book.name));
-  return array;
+function authorWith3DotsOnName() {
+  // escreva seu código aqui
 }
 
-assert.deepStrictEqual(oldBooks(), expectedResult);
+assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);
