@@ -1,4 +1,3 @@
-
 const assert = require('assert');
 
 const books = [
@@ -64,12 +63,10 @@ const books = [
   },
 ];
 
-function allNames() {
-  const livros = books.reduce((cookie, book) => {
-      cookie.push(` ${book.author.name}`);
-      return cookie;
-  }, []);
-  return `Nomes:${livros}.`
+const expectedResult = 43;
+
+function averageAge() {
+  // escreva seu código aqui
 }
 
-assert.deepStrictEqual(allNames(), 'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.');
+assert.strictEqual(averageAge(), expectedResult);
