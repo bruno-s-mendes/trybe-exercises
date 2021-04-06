@@ -8,7 +8,14 @@ const names = [
 ];
 
 function containsA() {
-  // escreva seu código aqui
+  return names.reduce((acc, name) => {
+      name.split('').forEach(element => {
+          if (element === 'A' || element === 'a') {
+              acc += 1;
+          };
+      });
+      return acc;
+  },0);
 }
 
 assert.deepStrictEqual(containsA(), 20);
